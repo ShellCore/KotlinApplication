@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Kotlin Application</string>
+
+    <string name="main.btn.cycle">1. To Life Cycle Events</string>
+    <string name="main.btn.events">2. To Click Events</string>
+    <string name="main.btn.extensions">3. To Kotlin Android Extensions</string>
+    <string name="main.btn.picasso">4. To Picasso</string>
+    <string name="main.btn.listView">5. To List View</string>
+    <string name="main.btn.intents">6. To Intents</string>
+    <string name="main.btn.permissions">7. To Permissions</string>
+    <string name="main.btn.sharedPreferences">8. To Shared Preferences</string>
+    <string name="main.btn.extensionFunctions">9. To Extension Functions</string>
 </resources>
