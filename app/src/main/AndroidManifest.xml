@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.ClickEventsActivity" />
+        <activity android:name=".activities.ExtensionFunctionsActivity" />
+        <activity android:name=".activities.IntentsActivity" />
+        <activity android:name=".activities.KotlinAndroidExtensionsActivity" />
+        <activity android:name=".activities.LifeCycleActivity" />
+        <activity android:name=".activities.ListViewActivity" />
+        <activity android:name=".activities.PermissionsActivity" />
+        <activity android:name=".activities.PicassoActivity" />
+        <activity android:name=".activities.SharedPreferencesActivity"></activity>
     </application>
 
 </manifest>
