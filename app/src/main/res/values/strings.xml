@@ -22,4 +22,5 @@
     <!--Extensions-->
     <string name="extensions.btn.byId">Button by FindViewById</string>
     <string name="extensions.btn.byKat">Button by Kat</string>
+    <string name="picasso.btn.load_images">Load Images</string>
 </resources>
