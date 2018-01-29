@@ -23,4 +23,12 @@
     <string name="extensions.btn.byId">Button by FindViewById</string>
     <string name="extensions.btn.byKat">Button by Kat</string>
     <string name="picasso.btn.load_images">Load Images</string>
+
+    <!--Intents-->
+    <string name="intents.btn.extras">Intent with Extras</string>
+    <string name="intents.btn.flags">Intent with Flags</string>
+    <string name="intents.btn.object">Intent with Object</string>
+
+    <!--Extras-->
+    <string name="extras.btn.back">Go Back</string>
 </resources>
