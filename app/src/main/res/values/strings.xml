@@ -18,4 +18,8 @@
     <string name="events.btn.multi_1">Multiple Buttons 1</string>
     <string name="events.btn.multi_2">Multiple Buttons 2</string>
     <string name="events.btn.multi_3">Multiple Buttons 3</string>
+
+    <!--Extensions-->
+    <string name="extensions.btn.byId">Button by FindViewById</string>
+    <string name="extensions.btn.byKat">Button by Kat</string>
 </resources>
