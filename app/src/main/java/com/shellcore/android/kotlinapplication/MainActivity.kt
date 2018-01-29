@@ -16,15 +16,15 @@ class MainActivity : AppCompatActivity() {
 
         showMessages()
 
-        btnCycle.setOnClickListener { goToClickEventsActivity() }
-        btnEvents.setOnClickListener { goToExtensionFunctionsActivity() }
-        btnExtensions.setOnClickListener { goToIntentsActivity() }
-        btnPicasso.setOnClickListener { goToKotlinAndroidExtensionsActivity() }
-        btnListView.setOnClickListener { goToLifeCycleActivity() }
-        btnIntents.setOnClickListener { goToListViewActivity() }
+        btnCycle.setOnClickListener { goToLifeCycleActivity() }
+        btnEvents.setOnClickListener { goToClickEventsActivity() }
+        btnExtensions.setOnClickListener { goToKotlinAndroidExtensionsActivity() }
+        btnPicasso.setOnClickListener { goToPicassoActivity() }
+        btnListView.setOnClickListener { goToListViewActivity() }
+        btnIntents.setOnClickListener { goToIntentsActivity() }
         btnPermissions.setOnClickListener { goToPermissionsActivity() }
-        btnSharedPreferences.setOnClickListener { goToPicassoActivity() }
-        btnExtensionFunctions.setOnClickListener { goToSharedPreferencesActivity() }
+        btnSharedPreferences.setOnClickListener { goToSharedPreferencesActivity() }
+        btnExtensionFunctions.setOnClickListener { goToExtensionFunctionsActivity() }
     }
 
     private fun showMessages() {
