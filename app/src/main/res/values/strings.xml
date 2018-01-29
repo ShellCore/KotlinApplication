@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Kotlin Application</string>
 
+    <!--Main-->
     <string name="main.btn.cycle">1. To Life Cycle Events</string>
     <string name="main.btn.events">2. To Click Events</string>
     <string name="main.btn.extensions">3. To Kotlin Android Extensions</string>
@@ -10,4 +11,11 @@
     <string name="main.btn.permissions">7. To Permissions</string>
     <string name="main.btn.sharedPreferences">8. To Shared Preferences</string>
     <string name="main.btn.extensionFunctions">9. To Extension Functions</string>
+
+    <!--Events-->
+    <string name="events.btn.xml">Click by XML</string>
+    <string name="events.btn.line">Click in Line</string>
+    <string name="events.btn.multi_1">Multiple Buttons 1</string>
+    <string name="events.btn.multi_2">Multiple Buttons 2</string>
+    <string name="events.btn.multi_3">Multiple Buttons 3</string>
 </resources>
