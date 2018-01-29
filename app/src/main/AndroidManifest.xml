@@ -24,7 +24,8 @@
         <activity android:name=".activities.ListViewActivity" />
         <activity android:name=".activities.PermissionsActivity" />
         <activity android:name=".activities.PicassoActivity" />
-        <activity android:name=".activities.SharedPreferencesActivity"></activity>
+        <activity android:name=".activities.SharedPreferencesActivity" />
+        <activity android:name=".activities.LifeCycleEventsActivity"></activity>
     </application>
 
 </manifest>
