@@ -31,8 +31,18 @@
 
     <!--Extras-->
     <string name="extras.btn.back">Go Back</string>
+
+    <!--Permissions-->
     <string name="permissions.btn.take_picture">Take a picture</string>
+
+    <!--Shared Preferences-->
     <string name="shared.hint.name">Type Name Here</string>
     <string name="shared.hint.age">Type Age Here</string>
     <string name="shared.btn.save">Save</string>
+
+    <!--Extensions-->
+    <string name="extensions.btn.toast">Toast</string>
+    <string name="extensions.btn.snackbar">Snack Bar</string>
+    <string name="extensions.btn.load_url">Load URL</string>
+    <string name="extensions.btn.activity">Go to Activity</string>
 </resources>
