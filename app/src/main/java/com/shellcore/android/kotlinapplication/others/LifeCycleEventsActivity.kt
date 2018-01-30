@@ -1,4 +1,4 @@
-package com.shellcore.android.kotlinapplication.activities
+package com.shellcore.android.kotlinapplication.others
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

@@ -3,6 +3,7 @@
     package="com.shellcore.android.kotlinapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.CAMERA" />-->
 
     <application
         android:allowBackup="true"
@@ -18,20 +19,62 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.ClickEventsActivity" />
-        <activity android:name=".activities.ExtensionFunctionsActivity" />
-        <activity android:name=".activities.IntentsActivity" />
-        <activity android:name=".activities.KotlinAndroidExtensionsActivity" />
-        <activity android:name=".activities.LifeCycleActivity" />
-        <activity android:name=".activities.ListViewActivity" />
-        <activity android:name=".activities.PermissionsActivity" />
-        <activity android:name=".activities.PicassoActivity" />
-        <activity android:name=".activities.SharedPreferencesActivity" />
-        <activity android:name=".activities.LifeCycleEventsActivity" />
-        <activity android:name=".activities.IntentExtrasActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
+        <activity android:name=".activities.ClickEventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity android:name=".activities.ExtensionFunctionsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.IntentsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.KotlinAndroidExtensionsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.LifeCycleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.ListViewActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.PermissionsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.PicassoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.SharedPreferencesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".others.LifeCycleEventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".activities.IntentExtrasActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".others.ToolbarActivity" />
     </application>
 
 </manifest>

@@ -2,16 +2,20 @@ package com.shellcore.android.kotlinapplication.activities
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import com.shellcore.android.kotlinapplication.R
 import com.shellcore.android.kotlinapplication.models.Student
+import com.shellcore.android.kotlinapplication.others.ToolbarActivity
 import kotlinx.android.synthetic.main.activity_intents.*
 
-class IntentsActivity : AppCompatActivity() {
+class IntentsActivity : ToolbarActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intents)
+
+        toolbarToLoad(toolbar as Toolbar)
+        enableHomeDisplay(true)
 
         btnExtras.setOnClickListener { goIntentExtras() }
         btnFlags.setOnClickListener { goIntentFlags() }

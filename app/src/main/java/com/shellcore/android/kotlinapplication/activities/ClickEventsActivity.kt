@@ -1,17 +1,21 @@
 package com.shellcore.android.kotlinapplication.activities
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import android.view.View
 import android.widget.Toast
 import com.shellcore.android.kotlinapplication.R
+import com.shellcore.android.kotlinapplication.others.ToolbarActivity
 import kotlinx.android.synthetic.main.activity_click_events.*
 
-class ClickEventsActivity : AppCompatActivity(), View.OnLongClickListener {
+class ClickEventsActivity : ToolbarActivity(), View.OnLongClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_click_events)
+
+        toolbarToLoad(toolbar as Toolbar)
+        enableHomeDisplay(true)
 
         clickInLine()
 

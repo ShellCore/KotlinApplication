@@ -31,4 +31,5 @@
 
     <!--Extras-->
     <string name="extras.btn.back">Go Back</string>
+    <string name="permissions.btn.take_picture">Take a picture</string>
 </resources>

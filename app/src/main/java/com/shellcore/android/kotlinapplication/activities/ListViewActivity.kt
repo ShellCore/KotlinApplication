@@ -1,13 +1,14 @@
 package com.shellcore.android.kotlinapplication.activities
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import com.shellcore.android.kotlinapplication.R
 import com.shellcore.android.kotlinapplication.adapters.PersonAdapter
 import com.shellcore.android.kotlinapplication.models.Person
+import com.shellcore.android.kotlinapplication.others.ToolbarActivity
 import kotlinx.android.synthetic.main.activity_list_view.*
 
-class ListViewActivity : AppCompatActivity() {
+class ListViewActivity : ToolbarActivity() {
 
     private lateinit var adapter:PersonAdapter
     private lateinit var personList: List<Person>
@@ -15,6 +16,9 @@ class ListViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_view)
+
+        toolbarToLoad(toolbar as Toolbar)
+        enableHomeDisplay(true)
 
         personList = getPersons()
         adapter = PersonAdapter(this, R.layout.list_view_person, personList)
