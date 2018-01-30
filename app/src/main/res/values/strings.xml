@@ -32,4 +32,7 @@
     <!--Extras-->
     <string name="extras.btn.back">Go Back</string>
     <string name="permissions.btn.take_picture">Take a picture</string>
+    <string name="shared.hint.name">Type Name Here</string>
+    <string name="shared.hint.age">Type Age Here</string>
+    <string name="shared.btn.save">Save</string>
 </resources>
